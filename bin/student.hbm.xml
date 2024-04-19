@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+
+<hibernate-mapping>
+    
+     <class name="model.Student" table="kb11">  
+    <id name="sid">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="sname" column="name" ></property>  
+    <property name="saddres"  ></property>  
+            
+  </class>  
+    
+</hibernate-mapping>
